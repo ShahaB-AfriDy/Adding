@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Addition</title>
+    <link rel="stylesheet" href="{% static 'Cal/styles.css' %}">
+</head>
+<body>
+    <h2>Add Two Numbers</h2>
+    <form id="addForm">
+        <input type="number" id="num1" placeholder="Enter first number" required>
+        <br>
+        <input type="number" id="num2" placeholder="Enter second number" required>
+        <br>
+        <button type="button" onclick="addNumbers()">Add</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>

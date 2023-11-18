@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    background-color: rgb(129, 10, 77);
+    padding-top: 180px;
+    text-decoration-color: darkolivegreen;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    
+}
+
+.centered-content {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
